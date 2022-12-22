@@ -1,6 +1,6 @@
 {
   "name": "myportfolio",
-  "homepage": "https://www.karljude.me",
+  "homepage": "git@github.com:krljde/My-Portfolio.git",
   "version": "0.1.0",
   "private": true,
   "scripts": {
