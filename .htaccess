@@ -1,1 +1,1 @@
-Redirect /index.html /index.tsx
+Redirect /index.html pages/index.tsx
