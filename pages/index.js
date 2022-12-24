@@ -38,7 +38,7 @@ export default function Home() {
         </nav>
         <div className='text-left p-10 py-10'>
           <h2 className='text-4xl py-2 text-teal-600 to-blue-50 font-medium text-left'>👋 Hi  There!</h2>
-          <h3 className='text-2xl py-2 text-gray-600 md:text-xl max-w-xl text-left'><span className='text-teal-600'>I&apos;m Karl</span>,&apos;Hello world&apos; with a passion for creating engaging content. 
+          <h3 className='text-2xl py-2 text-gray-600 md:text-xl max-w-xl text-left'><span className='text-teal-600'>I&apos;m Karl</span>,Hello world with a passion for creating engaging content. 
           Whether I&apos;m snapping photos or shooting videos, I love being hands-on in the content creation process.</h3>
           <p className='text-medium py-1 leading-8 text-gray-600 md:text-l max-w-xl text-left'>Thanks for stopping by and taking a look at my work. I hope you find something that inspires you.</p>
         </div>
