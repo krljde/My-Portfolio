@@ -8,8 +8,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "gh-pages -b master -d build"
+    "lint": "next lint"
   },
   "dependencies": {
     "@next/font": "13.1.0",
