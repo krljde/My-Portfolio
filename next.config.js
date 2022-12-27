@@ -2,15 +2,17 @@
 const nextConfig = {
   reactStrictMode: true,
 }
+module.exports = nextConfig
 
 module.exports = {
-  redirects() {
+  // your other settings
+  async redirects() {
     return [
-      process.env.MAINTENANCE_MODE === "1"
-        ? { source: "/((?!maintenance).*)", destination: "pages/maintenance.html", permanent: false }
-        : null,
-    ].filter(Boolean);
-  }
+      {
+        source: "/((?!maintenance).*)",
+        destination: "/maintenance.html",
+        permanent: false, //!!!IMPORTANT!!!
+      },
+    ];
+  },
 };
-
-module.exports = nextConfig
