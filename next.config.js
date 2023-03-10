@@ -9,7 +9,7 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: "/((?!maintenance).*)",
+        source: "/((?!maintenance|_next).*)",
         destination: "/maintenance.html",
         permanent: false, //!!!IMPORTANT!!!
       },
