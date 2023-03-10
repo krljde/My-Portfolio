@@ -10,7 +10,7 @@ module.exports = {
     return [
       {
         source: "/((?!maintenance|_next).*)",
-        destination: "/maintenance.html",
+        destination: "../maintenance.html",
         permanent: false, //!!!IMPORTANT!!!
       },
     ];
